@@ -1,3 +1,35 @@
-nav {
+/** {
+  border: 1px solid teal;
+}
+*/
+
+/*nav {
   display: none;
+}
+*/
+
+
+img {
+  height: 125px;
+  max-width: 300px;
+}
+
+/* .flex-basics */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside {
+  min-width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
